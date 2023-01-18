@@ -1,0 +1,118 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Fredoka+One"
+    />
+    <style>
+      body {
+        font-family: "Fredoka One", serif;
+        background-color: orange;
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+      }
+
+      @keyframes fadeInAnimation {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 2.5%;
+        font-size: 4em;
+      }
+
+      #container {
+        position: relative;
+        display: flex;
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #wiki {
+        text-align: center;
+        width: 50vw;
+        height: auto;
+        min-width: 250px;
+      }
+
+      img {
+        border: 1px solid black;
+        border-radius: 20px;
+      }
+
+      #wiki-image,
+      #wiki-catnip-image {
+        width: 80%;
+        height: 100%;
+        min-width: 200px;
+        vertical-align: middle;
+        display: inline-block;
+      }
+
+      #instructional-text {
+        display: block;
+        text-align: center;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #instructional-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        max-width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>WELCOME TO CATNIP!</h1>
+
+    <p id="instructional-text">
+      Click the tabby cat button in your browser's toolbar to add catnip to any
+      web page!
+    </p>
+    <img id="instructional-image" src="/readme_pics/browser_button_6.PNG" />
+    <p id="instructional-text">
+      <small
+        >Don't see the tabby cat? You may need to
+        <a
+          href="https://support.mozilla.org/en-US/kb/unified-extensions#w_manage-extension-settings"
+          target="_blank"
+          >pin the extension to your toolbar.</a
+        ></small
+      >
+    </p>
+
+    <div id="container">
+      <div id="wiki">
+        <h2>Wikipedia's Homepage:</h2>
+      </div>
+      <div id="wiki">
+        <h2>Wikipedia's Homepage on Catnip:</h2>
+      </div>
+    </div>
+
+    <div id="container">
+      <div id="wiki">
+        <img id="wiki-image" src="/readme_pics/wikipedia.PNG" />
+      </div>
+      <div id="wiki">
+        <img
+          id="wiki-catnip-image"
+          src="/readme_pics/wikipedia_on_catnip.PNG"
+        />
+      </div>
+    </div>
+  </body>
+</html>
