@@ -1,11 +1,12 @@
 {
-
   "manifest_version": 2,
   "name": "Catnip",
   "version": "1.0",
   "description": "When enabled, replaces all images on a page with images of cats.",
-  "permissions": ["<all_urls>", "tabs"],
-
+  "permissions": ["activeTab"],
+  "icons": {
+    "48": "icons/cat-48.png"
+  },
   "background": {
     "scripts": ["background.js"]
   },
@@ -16,5 +17,4 @@
       "48": "icons/cat-48.png"
     }
   }
-
 }
