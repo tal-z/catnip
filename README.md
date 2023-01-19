@@ -4,9 +4,9 @@ _Catnip_ is a browser extension that improves the web experience by showing you 
 
 This is my first browser extension, and it was a lot of fun to build.
 
-## Wikipedia Homepage:
+###### Wikipedia Homepage:
 ![Wikipedia Homepage](https://github.com/tal-z/catnip/blob/master/readme_pics/wikipedia.PNG?raw=true)
-## Wikipedia Homepage on Catnip:
+###### Wikipedia Homepage on Catnip:
 ![Wikipedia Homepage on Catnip](https://github.com/tal-z/catnip/blob/master/readme_pics/wikipedia_on_catnip.PNG?raw=true)
 
 ## About this Project:
