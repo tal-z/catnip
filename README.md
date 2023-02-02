@@ -24,4 +24,38 @@ Browser actions refer to events that you'd like to be able to trigger anywhere t
 
 ### User Onboarding
 
-### `web-ext`
+
+### Development
+
+#### git
+##### Branches
+ - main (protected branch, can only be updated via PR)
+ - develop (branch for testing features/changes before merging with main)
+ - feature branches (for all other work, to be tested on develop before merging into main with a PR.)
+
+##### Flow
+1. Create a new feature branch for new work with upstream tracking.
+```
+git checkout -b <new-branch-name>
+do some work...
+git commit
+git push --set-upstream origin <new-branch-name>
+```
+
+2. When ready, merge feature to develop locally, and push to remote.
+```
+git checkout develop
+git pull
+git merge <feature-branch-name>
+git push
+```
+
+3. When ready, create a PR on develop and pull into main. Do this part in GitHub.
+
+#### `web-ext`
+
+`web-ext run` loads a browser that auto-reloads the extension
+
+`web-ext build --overwrite-dest` packages the extension
+
+`web-ext sign` Submit extension to be signed for self-hosting (requires API creds)
