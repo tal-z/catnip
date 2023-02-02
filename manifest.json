@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Catnip",
   "version": "1.0",
-  "description": "When enabled, replaces all images on a page with images of cats.",
+  "description": "Catnip gives you a button that replaces all images on your active browser tab with images of cats. Inject catnip into your browser today!",
   "permissions": ["activeTab"],
   "icons": {
     "48": "icons/cat-48.png"
