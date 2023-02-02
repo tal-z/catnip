@@ -20,7 +20,8 @@ Background scripts are scripts that run...wait for it..._in the background_. In 
 In contrast, content scripts are scripts that do run in a browser tab. They may be run in a page that the user has loaded remotely (not from the extension itself), or may be run in a page that was packaged with the extension. In general, content scripts are _injected_ into existing web pages. Please note that no cats are harmed when injecting catnip.
 
 ### Browser Actions
+Browser actions refer to events that you'd like to be able to trigger anywhere throughout the browser. Typically, browser actions are controlled with a button, as is the case with _Catnip_
 
 ### User Onboarding
 
-### 
+### `web-ext`
