@@ -1,6 +1,8 @@
 # _Catnip!_
 
-_Catnip_ is a browser extension that improves the web experience by showing you more cats. The extension adds a button to your browser, which replaces images on a page with pictures of cats when clicked.
+_Catnip_ is a browser extension that improves the web experience by showing you more cats. The extension adds a button to your browser, which replaces images on a page with pictures of cats when clicked. 
+
+You can download _Catnip_ for firefox at https://addons.mozilla.org/en-US/firefox/addon/catnip/ 
 
 This is my first browser extension, and it was a lot of fun to build.
 
